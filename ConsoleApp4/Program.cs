@@ -32,13 +32,16 @@ namespace ConsoleApp4
                 {
                     Console.WriteLine("FizzBuzz");
                 }
-                Console.WriteLine(i);  
+                else {
+                    Console.WriteLine(i);
+                }
+                     
 
                 
 
             }
 
-           // Console.ReadLine();
+          
         }
     }
 }
