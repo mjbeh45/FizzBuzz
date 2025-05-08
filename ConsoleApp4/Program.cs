@@ -21,7 +21,7 @@ namespace ConsoleApp4
                 {
                     Console.WriteLine("Fizz");
                 }
-                // wenn die Zahl durch 5 teilbar ist, dann gebe "Fizz" aus
+                // wenn die Zahl durch 5 teilbar ist, dann gebe "Buzz" aus
                 
                 else if (i % 5==0)
                 {
@@ -32,7 +32,7 @@ namespace ConsoleApp4
                 {
                     Console.WriteLine("FizzBuzz");
                 }
-                Console.WriteLine(i);
+                Console.WriteLine(i);  
 
                 
 
