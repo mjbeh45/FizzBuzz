@@ -14,10 +14,15 @@ namespace ConsoleApp4
             // da in der Aufgabe steht, dass die Zahklen bis 100 zurückgegben werden sollen.
             for (int i = 1; i <= 100; i++)
             {
-                
+              // wenn die Zahl durch 3 und 5 teilbar ist, dann gebe "FizzBuzz" aus
+                 if (i % 3 == 0 && i % 5 == 0)
+                {
+                    Console.WriteLine("FizzBuzz");
+                }
+
                 // wenn die Zahl durch 3 teilbar ist, dann gebe "Fizz" aus
-                
-                if (i % 3== 0)
+
+                else if (i % 3==0)
                 {
                     Console.WriteLine("Fizz");
                 }
@@ -27,11 +32,7 @@ namespace ConsoleApp4
                 {
                     Console.WriteLine("Buzz");
                 }
-                // wenn die Zahl durch 3 und 5 teilbar ist, dann gebe "FizzBuzz" aus
-                else if (i % 3 == 0 && i % 5 == 0)
-                {
-                    Console.WriteLine("FizzBuzz");
-                }
+
                 else {
                     Console.WriteLine(i);
                 }
