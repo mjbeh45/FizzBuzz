@@ -27,8 +27,8 @@ namespace ConsoleApp4
                 {
                     Console.WriteLine("Buzz");
                 }
-                // wenn die Zahl durch 3 und 5 teilbar ist, dann gebe "Fizz" aus
-                else if (i % 3 == 0 && i % 6 == 0)
+                // wenn die Zahl durch 3 und 5 teilbar ist, dann gebe "FizzBuzz" aus
+                else if (i % 3 == 0 && i % 5 == 0)
                 {
                     Console.WriteLine("FizzBuzz");
                 }
