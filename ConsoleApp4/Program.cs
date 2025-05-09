@@ -33,10 +33,14 @@ namespace ConsoleApp4
                 // Text ausgeben
                 Console.Write(sb.ToString());
             }
+            
+            AlternativeLoesung();
         }
     
-        void AlternativeLoesung()
+        public static void AlternativeLoesung()
         {
+            for (int i = 1; i <= 100; i++)
+            {
                 //wenn die Zahl durch 7,5 und 3 teilbar ist, dann gebe "FizzBuzz" aus
                 if (i % 7 == 0 && i % 5 == 0 && i % 3 == 0)
                 {
@@ -97,6 +101,7 @@ namespace ConsoleApp4
                     Console.WriteLine(i);
                 }
             }
+            
         }
     }
 }
